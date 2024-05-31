@@ -1,0 +1,70 @@
+/* Custom CSS for the Add Review Form */
+
+.add-review-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-review-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .rating-stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .rating-stars label {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .rating-stars input {
+    display: none;
+  }
+  
+  .star-filled {
+    color: #FFD662; /* Yellow */
+  }
+  
+  .star-outline {
+    color: #ccc;
+  }
+  
+  .comment-input {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1.1em;
+  }
+  
+  .comment-input::placeholder {
+    color: #aaa;
+  }
+  
+  button {
+    padding: 12px 30px;
+    background-color: #4A90E2; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0052D4; /* Darker blue on hover */
+  }
+  
